@@ -1,19 +1,19 @@
-# Regresie Liniară cu Regularizare
+# Regresie Liniara cu Regularizare
 
-Acest proiect implementează un model de regresie liniară cu regularizare (Ridge Regression) utilizând NumPy și Pandas. Modelul antrenează parametrii folosind Gradient Descent și aplică normalizare Z-score pentru a îmbunătăți performanța antrenamentului.
+Acest proiect implementeaza un model de regresie liniara cu regularizare (Ridge Regression) utilizand NumPy si Pandas. Modelul antreneaza parametrii folosind Gradient Descent si aplica normalizare Z-score pentru a imbunatati performanta antrenamentului.
 
 ## Structura Proiectului
 
-Proiectul este împărțit în 4 fișiere:
+Proiectul este impartit in 4 fisiere:
 
-1. **cost_function.py** - Conține funcțiile pentru calcularea costului cu regularizare.
-2. **gradient.py** - Conține funcțiile pentru calcularea gradientului și algoritmul de Gradient Descent.
-3. **normalization.py** - Include funcția de normalizare Z-score.
-4. **main.py** - Scriptul principal care antrenează modelul și face predicții.
+1. **cost_function.py** - Contine functiile pentru calcularea costului cu regularizare.
+2. **gradient.py** - Contine functiile pentru calcularea gradientului si algoritmul de Gradient Descent.
+3. **normalization.py** - Include functia de normalizare Z-score.
+4. **main.py** - Scriptul principal care antreneaza modelul si face predictii.
 
-## Instalare și Configurare
+## Instalare si Configurare
 
-### Cerințe
+### Cerinte
 - Python 3.x
 - NumPy
 - Pandas
@@ -26,17 +26,17 @@ pip install numpy pandas
 ## Utilizare
 
 1. **Preprocesarea Datelor:**
-   - Se normalizează caracteristicile folosind Z-score.
-   - Se inversează semnul pentru etajele și vârsta casei pentru a reflecta corect influența asupra prețului.
+   - Se normalizeaza caracteristicile folosind Z-score.
+   - Se inverseaza semnul pentru etajele si varsta casei pentru a reflecta corect influenta asupra pretului.
 
 2. **Antrenarea Modelului:**
-   - Se inițializează parametrii w și b.
-   - Se rulează Gradient Descent pentru a optimiza parametrii.
+   - Se initializeaza parametrii w si b.
+   - Se ruleaza Gradient Descent pentru a optimiza parametrii.
 
-3. **Predicții:**
-   - Se normalizează noile date de intrare.
-   - Se aplică modelul antrenat pentru a face predicții.
-   - Se denormalizează rezultatul pentru a obține valoarea reală a prețului.
+3. **Predictii:**
+   - Se normalizeaza noile date de intrare.
+   - Se aplica modelul antrenat pentru a face predictii.
+   - Se denormalizeaza rezultatul pentru a obtine valoarea reala a pretului.
 
 ### Exemplu de rulare
 ```bash
@@ -44,7 +44,7 @@ python main.py
 ```
 
 ## Rezultate
-Modelul afișează costul la fiecare iterație și face predicții pentru datele de test.
+Modelul afiseaza costul la fiecare iteratie si face predictii pentru datele de test.
 
 
 ---
